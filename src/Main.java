@@ -9,10 +9,13 @@ public class Main {
         System.out.println("lev.year = " + lev.getyear());
 
         //////////////////////////
-        Author lov = new Author("Vyacheslav", "Dmitrievich", "Maznev");
+        Author lov = new Author("Vyacheslav", "Dmitrievich", "Maznev",31);
         System.out.println("lov.Name = " + lov.getName());
         System.out.println("lov.middleName = " + lov.getmiddleName());
         System.out.println("lov.Surname = " + lov.getSurname());
+        System.out.println("lov.yearMy() = " + lov.getyearMy());
+        lov.setyearMy(25);
+        System.out.println("lov.yearMy() = " + "Хочу опять как в "+ lov.getyearMy());
 
     }
     }
