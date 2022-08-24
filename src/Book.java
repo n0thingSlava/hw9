@@ -1,13 +1,20 @@
 public class Book {
-    String authorName= "S. King";
-    String pageAmount= "Lev Tolstoi";
-    int year= 1991;
+    private String authorName = "S. King";
+    private String pageAmount = "Lev Tolstoi";
+    private int year = 1991;
 
-    public static Book coolBook(String authorName, String pageAmount, int year) {
-        Book person = new Book();
-        person.authorName = authorName;
-        person.pageAmount = pageAmount;
-        person.year = year;
-        return person;
+    public Book(String authorName, String pageAmount, int year) {
+        this.authorName = authorName;
+        this.pageAmount = pageAmount;
+        this.year = year;
+    }
+    public String getauthorName(){
+        return this.authorName;
+    }
+    public String getpageAmount(){
+        return this.pageAmount;
+        }
+    public int getyear() {
+        return this.year;
     }
 }

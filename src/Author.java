@@ -3,10 +3,20 @@ public class Author {
     String middleName= "Dmitrievich";
     String Surname= "Maznev";
 
-    public static Author bloc(String Name, String middleName, String Surname) {
-        Author bloc = new Author();
-        bloc.Name = Name;
-        bloc.middleName = middleName;
-        bloc.Surname = Surname;
-        return bloc;
+    public  Author(String Name, String middleName, String Surname) {
+        this.Name = Name;
+        this.middleName = middleName;
+        this.Surname = Surname;
 }
+
+    public String getName() {
+        return this.Name;
+    }
+    public String getmiddleName() {
+        return this.middleName;
+    }
+
+    public String getSurname() {
+        return this.Surname;
+            }
+    }

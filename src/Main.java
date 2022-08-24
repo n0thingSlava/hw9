@@ -1,17 +1,16 @@
 public class Main {
 
-    }
     public static void main(String[] argt) {
-        Book lev = Book.coolBook("S. King","Lev Tolstoi",1991);
-        System.out.println("lev.authorName = " + lev.authorName);
-        System.out.println("lev.pageAmount = " + lev.pageAmount);
-        System.out.println("lev.year = " + lev.year);
+        Book lev = new Book("S. King","Lev Tolstoi",1991);
+        System.out.println("lev.authorName = " + lev.getauthorName());
+        System.out.println("lev.pageAmount = " + lev.getpageAmount());
+        System.out.println("lev.year = " + lev.getyear());
 
         //////////////////////////
-        Author lov = Author.bloc("Vyacheslav", "Dmitrievich", "Maznev");
-        System.out.println("lov.Name = " + lov.Name);
-        System.out.println("lov.middleName = " + lov.middleName);
-        System.out.println("lov.Surname = " + lov.Surname);
+        Author lov = new Author("Vyacheslav", "Dmitrievich", "Maznev");
+        System.out.println("lov.Name = " + lov.getName());
+        System.out.println("lov.middleName = " + lov.getmiddleName());
+        System.out.println("lov.Surname = " + lov.getSurname());
 
     }
     }
