@@ -1,12 +1,12 @@
 public class Book {
     private String authorName = "S. King";
     private String pageAmount = "Lev Tolstoi";
-     int year = 1991;
+     private int year = 1991;
 
     public Book(String authorName, String pageAmount, int year) {
         this.authorName = authorName;
         this.pageAmount = pageAmount;
-        year = year;
+        this.year = year;
     }
 
     public int setyear(int year) {
