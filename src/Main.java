@@ -4,6 +4,8 @@ public class Main {
         Book lev = new Book("S. King","Lev Tolstoi",1991);
         System.out.println("lev.authorName = " + lev.getauthorName());
         System.out.println("lev.pageAmount = " + lev.getpageAmount());
+       // System.out.println("lev.year = " + lev.getyear());
+        lev.setyear(1994);
         System.out.println("lev.year = " + lev.getyear());
 
         //////////////////////////
