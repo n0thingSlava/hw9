@@ -10,12 +10,12 @@ public class Main {
 
         //////////////////////////
         Author lov = new Author("Vyacheslav", "Dmitrievich", "Maznev",31);
-        System.out.println("lov.Name = " + lov.getName());
+        System.out.println("lov.name = " + lov.getname());
         System.out.println("lov.middleName = " + lov.getmiddleName());
-        System.out.println("lov.Surname = " + lov.getSurname());
-        System.out.println("lov.yearMy() = " + lov.getyearMy());
-        lov.setyearMy(25);
-        System.out.println("lov.yearMy() = " + "Хочу опять как в "+ lov.getyearMy());
+        System.out.println("lov.surName = " + lov.getsurName());
+        System.out.println("lov.yearPublication() = " + lov.getyearPublication());
+        lov.setyearPublication(25);
+        System.out.println("lov.yearMy() = " + "Хочу опять как в "+ lov.getyearPublication());
 
     }
     }

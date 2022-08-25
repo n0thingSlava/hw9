@@ -1,7 +1,8 @@
 public class Book {
-    private String authorName = "S. King";
-    private String pageAmount = "Lev Tolstoi";
-     private int year = 1991;
+    private String authorName ;
+    private String pageAmount;
+     private int year;
+     private Author author;
 
     public Book(String authorName, String pageAmount, int year) {
         this.authorName = authorName;
