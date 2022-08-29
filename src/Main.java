@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static void main(String[] argt) {
@@ -6,7 +8,7 @@ public class Main {
         System.out.println("lev.pageAmount = " + lev.getpageAmount());
         System.out.println("lev.year = " + lev.getyear());
         lev.setyear(1994);
-        System.out.println("lev.year = " + lev.getyear());
+        System.out.println(lev);
 
         //////////////////////////
         Author lov = new Author("Vyacheslav", "Dmitrievich", "Maznev",31);
@@ -16,6 +18,6 @@ public class Main {
         System.out.println("lov.yearPublication() = " + lov.getyearPublication());
         lov.setyearPublication(25);
         System.out.println("lov.yearMy() = " + "Хочу опять как в "+ lov.getyearPublication());
-
+        System.out.println(lov);
     }
     }

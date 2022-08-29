@@ -28,4 +28,8 @@ public class Author {
 
         return this.yearPublication = yearPublication;
     }
+
+    public String toString() {
+        return "Имя- " + this.name + " Фамилия -" + this.surName + " Отчество -" + this.middleName;
+    }
     }
