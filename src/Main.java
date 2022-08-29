@@ -20,7 +20,7 @@ public class Main {
         System.out.println("lov.middleName = " + author.getmiddleName());
         System.out.println("lov.surName = " + author.getsurName());
         System.out.println("lov.yearPublication() = " + author.getyearPublication());
-        author.setyearPublication(25);
+        author.setyearPublication(27);
         System.out.println("lov.yearMy() = " + "Хочу опять как в "+ author.getyearPublication());
         System.out.println(author);
     }
